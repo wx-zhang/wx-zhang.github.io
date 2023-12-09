@@ -1,0 +1,46 @@
+main:
+
+  # - title: "3DCoMPaT++: : An improved Large-scale 3D Vision Dataset for Compositional Recognition"
+  #   authors: <strong>Habib Slim</strong>, Xiang Li, Mahmoud Ahmed, Mohamed Ayman, Ujjwal Upadhyay, Ahmed Abdelreheem, Arpit Prajapati, Suhail Pothigara, Peter Wonka, Mohamed Elhoseiny
+  #   conference: Under review.
+  #   pdf: https://arxiv.org/pdf/2310.18511.pdf
+  #   code: https://github.com/Vision-CAIR/3DCoMPaT-v2
+  #   page: https://3dcompat-dataset.org/v2/
+  #   bibtex: assets/bib/compat_pp.bib
+  #   video: assets/teasers/tpami__compat.mp4
+  #   is_preprint: true
+
+  # - title: "CoT3DRef: Chain-of-Thoughts Data-Efficient 3D Visual Grounding"
+  #   authors: Eslam Mohamed Bakr, Mohamed Ayman, Mahmoud Ahmed, <strong>Habib Slim</strong>, Mohamed Elhoseiny
+  #   conference: Under review.
+  #   pdf: https://arxiv.org/pdf/2310.06214.pdf
+  #   bibtex: assets/bib/cot3d.bib
+  #   video: assets/teasers/cot3D__anim.mp4
+  #   is_preprint: true
+
+  # - title: "3DCoMPaT: Composition of Materials on Parts of 3D Things"
+  #   authors: Yuchen Li*, Ujjwal Upadhyay*, <strong>Habib Slim*</strong>, Ahmed Abdelreheem, Suhail Pothigara, Peter Wonka, Mohamed Elhoseiny
+  #   conference_short: ECCV
+  #   conference: European Conference on Computer Vision, 2022. <strong class="highlight-txt">Oral (2.7%)</strong>
+  #   pdf: https://arxiv.org/pdf/2310.18511.pdf
+  #   code: https://github.com/Vision-CAIR/3DCoMPaT-v2
+  #   page: https://3dcompat-dataset.org/v1/
+  #   bibtex: assets/bib/compat.bib
+  #   video: assets/teasers/eccv__compat.mp4
+  #   is_oral: true
+
+  # - title: "Dataset Knowledge Transfer for Class-Incremental Learning without Memory"
+  #   authors: <strong>Habib Slim</strong>*, Eden Belouadah*, Adrian Popescu, Darian Onchis
+  #   conference_short: WACV
+  #   conference: IEEE/CVF Winter Conference on Applications of Computer Vision, 2022.
+  #   pdf: https://arxiv.org/pdf/2310.18511.pdf
+  #   code: https://github.com/HabibSlim/DKT-for-CIL
+  #   bibtex: assets/bib/dkt.bib
+  #   video: assets/teasers/wacv__knowledge.mp4
+
+  # - title: "Knowledge Transfer for Memoryless Class-Incremental Learning"
+  #   authors: <strong>Habib Slim</strong>
+  #   conference: Master's thesis, Université Grenoble Alpes - Grenoble INP, 2021
+  #   pdf: assets/pdf/master_thesis.pdf
+  #   bibtex: assets/bib/master_thesis.bib
+  #   video: assets/teasers/thesis__anim.mp4

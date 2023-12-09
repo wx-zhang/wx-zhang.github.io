@@ -1,0 +1,40 @@
+# Basic Information 
+title: Habib Slim
+position: PhD Student
+affiliation: King Abdullah University
+affiliation_link: https://habibslim.github.io/
+affiliation_logo: ./assets/img/kaust_logo.svg
+email: habib.slim (at) kaust.edu.sa
+
+# Search Engine Optimization (SEO)
+keywords: habib slim, slim habib, habibslim, slimhabib
+canonical: https://habibslim.github.io/
+description: Habib Slim is a PhD student at King Abdullah University, Saudi Arabia. His research lies in 3D computer vision, compositional learning, and deep learning.
+
+# The option is used to show the last update time.
+enable_last_update: true
+
+# Links
+google_scholar: https://scholar.google.com/citations?hl=en&user=bOEvZ3MAAAAJ
+cv_link: ./assets/pdf/cv_2023.pdf
+github_link: https://github.com/HabibSlim/
+linkedin: https://www.linkedin.com/in/habib-slim/
+twitter: https://twitter.com/habib__slim
+
+# Images 
+avatar: ./assets/img/profile_pic.webp
+favicon: ./assets/img/kaust_favicon.png
+favicon_dark: ./assets/img/kaust_favicon.png
+
+# Footnotes
+footnote: Adapted from the Minimal Light theme by Yaoyao Liu.
+footnote_link: https://github.com/yaoyao-liu/minimal-light
+
+# The following files will be removed from the generated website.
+exclude:
+  - build.sh
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - CNAME
