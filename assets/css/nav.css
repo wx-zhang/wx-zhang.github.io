@@ -1,6 +1,6 @@
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #6c96e5;
+  background-color: #2a7172;
   overflow: hidden;
   position: fixed;
   z-index: 999;
@@ -13,7 +13,7 @@
 }
 
 .highlight-txt {
-  color: #ff771b;
+  color: #b53e30;
 }
 
 .topnav a.icon {
