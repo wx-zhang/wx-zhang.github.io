@@ -4,7 +4,7 @@ layout: homepage
 
 <h1 id="about-me"></h1>
 
-<h2 style="margin: 60px 0px 10px;">Short Bio</h2>
+<h2 style="margin: 60px 0px 10px;">About Me</h2>
 
 I am PhD student at [KAUST](https://www.kaust.edu.sa/en/).
 I earned a Master of Arts in Applied Mathematics and Computational Science from [University of Pennsylvania](https://www.amcs.upenn.edu/), during which I worked with [Prof. Eric Eaton](https://www.grasp.upenn.edu/people/eric-eaton/) on lifelong learning at [Université Paris-Saclay (CEA-LIST)](https://www.universite-paris-saclay.fr/).

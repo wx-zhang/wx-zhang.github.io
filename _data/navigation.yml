@@ -2,7 +2,7 @@ main:
 
   - title: "Contact"
     url: ./#contact 
-    right: true 
+    right: False 
 
   #- title: "Services"
   #  url: ./#services
