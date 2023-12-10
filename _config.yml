@@ -1,25 +1,25 @@
 # Basic Information 
-title: Habib Slim
+title: Wenxuan Zhang
 position: PhD Student
-affiliation: King Abdullah University
-affiliation_link: https://habibslim.github.io/
+affiliation: KAUST
+affiliation_link: https://wx-zhang.github.io/
 affiliation_logo: ./assets/img/kaust_logo.svg
-email: habib.slim (at) kaust.edu.sa
+email: wenxuan.zhang@kaust.edu.sa
 
 # Search Engine Optimization (SEO)
-keywords: habib slim, slim habib, habibslim, slimhabib
-canonical: https://habibslim.github.io/
-description: Habib Slim is a PhD student at King Abdullah University, Saudi Arabia. His research lies in 3D computer vision, compositional learning, and deep learning.
+keywords: wenxuan zhang, wenxuan, 
+canonical: https://wx-zhang.github.io/
+description: Wenxuan Zhang is a PhD student at King Abdullah University, Saudi Arabia. Her research lies in Continual Learning, Foundation models, and Alignment.
 
 # The option is used to show the last update time.
 enable_last_update: true
 
 # Links
-google_scholar: https://scholar.google.com/citations?hl=en&user=bOEvZ3MAAAAJ
+google_scholar: https://scholar.google.com/citations?user=GzBuFCAAAAAJ&hl=en
 cv_link: ./assets/pdf/cv_2023.pdf
-github_link: https://github.com/HabibSlim/
-linkedin: https://www.linkedin.com/in/habib-slim/
-twitter: https://twitter.com/habib__slim
+github_link: https://github.com/wx-zhang
+linkedin: https://www.linkedin.com/in/wenxuan-zhang-0960b11b8/
+twitter: 
 
 # Images 
 avatar: ./assets/img/profile_pic.webp
