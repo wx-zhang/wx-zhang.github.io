@@ -6,11 +6,9 @@ layout: homepage
 
 <h2 style="margin: 60px 0px 10px;">About Me</h2>
 
-I am PhD student at [KAUST](https://www.kaust.edu.sa/en/).
-I earned a Master of Arts in Applied Mathematics and Computational Science from [University of Pennsylvania](https://www.amcs.upenn.edu/), during which I worked with [Prof. Eric Eaton](https://www.grasp.upenn.edu/people/eric-eaton/) on lifelong learning at [Université Paris-Saclay (CEA-LIST)](https://www.universite-paris-saclay.fr/).
-I am currently supervised by [Pr. Mohamed Elhoseiny](https://scholar.google.com/citations?user=iRBUTOAAAAAJ), and am interested in various computer vision topics, including compositional and continual learning, and 2D/3D vision methods.
+I am a PhD student at [KAUST](https://www.kaust.edu.sa/en/) in Saudi Arabia. I am part of [Vision-CAIR group](https://cemse.kaust.edu.sa/vision-cair) led by [Pr. Mohamed Elhoseiny](https://scholar.google.com/citations?user=iRBUTOAAAAAJ). Previously, I obtained a Master of Arts in Applied Mathematics and Computational Science from [University of Pennsylvania](https://www.amcs.upenn.edu/), and a Bachelor of Science in Mathematics and Applied Mathematics from [Beijing Normal University](https://english.bnu.edu.cn/). 
 
-My research interests gravitate around **3D computer vision**, **compositional learning**, and paradigms like **continual/few-shot/zero-shot learning** which are all essential to making artificial neural networks closer to the learning abilities of biological systems.
+My research is primarily focused on **enhancing the foundation models with emerging abilities and properties**. This endeavor is reflected in my previous and on-going works, including topics of model alignment, continual/zero-shot learning, and efficient training algorithms.
 
 {% include_relative _includes/news.md %}
 

@@ -1,6 +1,6 @@
 <h1 id="publications"></h1>
 
-<h2 style="margin: 60px 0px -15px;">Publications <temp style="font-size:15px;">[</temp><a href="https://scholar.google.com/citations?user=bOEvZ3MAAAAJ" target="_blank" style="font-size:15px;">Google Scholar</a><temp style="font-size:15px;">]</temp><temp style="font-size:15px;">[</temp><a href="https://dblp.uni-trier.de/pid/234/5978.html" target="_blank" style="font-size:15px;">DBLP</a><temp style="font-size:15px;">]</temp></h2>
+<h2 style="margin: 60px 0px -15px;">Publications <temp style="font-size:15px;">[</temp><a href="https://scholar.google.com/citations?user=bOEvZ3MAAAAJ" target="_blank" style="font-size:15px;">Google Scholar</a><temp style="font-size:15px;">]</temp></h2>
 
 
 <div class="publications">
@@ -56,7 +56,7 @@
         </a>
         {% endif %}
         {% if link.notes %} 
-        <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
+        <strong> <i style="color:#ed8f87">{{ link.notes }}</i></strong>
         {% endif %}
         {% if link.others %} 
         {{ link.others }}

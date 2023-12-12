@@ -16,15 +16,15 @@ enable_last_update: true
 
 # Links
 google_scholar: https://scholar.google.com/citations?user=GzBuFCAAAAAJ&hl=en
-cv_link: ./assets/pdf/cv_2023.pdf
+cv_link: ./assets/pdf/cv.pdf
 github_link: https://github.com/wx-zhang
 linkedin: https://www.linkedin.com/in/wenxuan-zhang-0960b11b8/
 twitter: 
 
 # Images 
 avatar: ./assets/img/profile_pic.webp
-favicon: ./assets/img/kaust_favicon.png
-favicon_dark: ./assets/img/kaust_favicon.png
+favicon: ./assets/img/profile_pic.webp
+favicon_dark: ./assets/img/profile_pic.webp
 
 # Footnotes
 footnote: Adapted from the Minimal Light theme by Yaoyao Liu.

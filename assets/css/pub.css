@@ -15,7 +15,7 @@
 .badge {
   color: #fff !important;
   border-radius: 0.125rem;
-  background-color: #f86a54 !important;
+  background-color: var(--global-hover-color)  !important;
   -webkit-box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%),
     0 2px 10px 0 rgb(0 0 0 / 12%);
   box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
@@ -23,7 +23,7 @@
 
 .oral-badge {
   color: #fff !important;
-  background-color: var(--global-hover-color) !important;
+  background-color: #ed8f87 !important;
   border-radius: 0.125rem;
   -webkit-box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%),
     0 2px 10px 0 rgb(0 0 0 / 12%);

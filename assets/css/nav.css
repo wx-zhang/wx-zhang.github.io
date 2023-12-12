@@ -7,8 +7,7 @@
   z-index: 999;
   width: 100%;
   height: 45px;
-  
-  
+  float: left;
 }
 
 .topnav #myLinks {
@@ -51,6 +50,10 @@
   margin-right: 30%;
 }
 
+.topnav a.left {
+  margin-left: 30%;
+}
+
 @media print, screen and (max-width: 1000px) {
   .topnav img {
     margin-left: 3%;
@@ -58,6 +61,10 @@
 
   .topnav a.right {
     margin-right: 30%;
+  }
+
+  .topnav a.left {
+    margin-left: 30%;
   }
 
   .topnav a.normal {
@@ -72,6 +79,9 @@
   .topnav a.right {
     margin-right: 6%;
   }
+  .topnav a.left {
+    margin-left: 6%;
+  }
 }
 
 @media print, screen and (max-width: 1400px) and (min-width: 1201px) {
@@ -80,6 +90,9 @@
   }
   .topnav a.right {
     margin-right: 12%;
+  }
+  .topnav a.left {
+    margin-left: 12%;
   }
 }
 
@@ -90,6 +103,9 @@
   .topnav a.right {
     margin-right: 16%;
   }
+  .topnav a.left {
+    margin-left: 16%;
+  }
 }
 
 @media print, screen and (max-width: 1800px) and (min-width: 1601px) {
@@ -99,6 +115,9 @@
   .topnav a.right {
     margin-right: 19%;
   }
+  .topnav a.left {
+    margin-left: 19%;
+  }
 }
 
 @media print, screen and (max-width: 2000px) and (min-width: 1801px) {
@@ -107,6 +126,9 @@
   }
   .topnav a.right {
     margin-right: 22%;
+  }
+  .topnav a.left {
+    margin-left: 22%;
   }
 }
 
@@ -144,6 +166,15 @@
   }
 
   .topnav a.right {
+    color: white;
+    float: none;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    margin-right: 0;
+  }
+  .topnav a.left {
     color: white;
     float: none;
     padding: 14px 16px;
