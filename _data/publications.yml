@@ -7,7 +7,7 @@ main:
     # code: https://github.com/Vision-CAIR/3DCoMPaT-v2
     # page: https://3dcompat-dataset.org/v2/
     # bibtex: assets/bib/compat_pp.bib
-    video: assets/teasers/tpami__compat.mp4
+    video: assets/teasers/iwms.mov
     is_preprint: true
 
   - title: "Label Delay in Continual Learning"
@@ -17,7 +17,7 @@ main:
     # code: https://github.com/Vision-CAIR/3DCoMPaT-v2
     page: https://botcs.github.io/label-delay/
     # bibtex: assets/bib/compat_pp.bib
-    video: assets/teasers/tpami__compat.mp4
+    video: assets/teasers/iwms.mp4
     is_preprint: true
 
   - title: "Continual Zero-Shot Learning through Semantically Guided Generative Random Walks"

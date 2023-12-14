@@ -162,13 +162,13 @@ blockquote {
 }
 
 .publications ol.bibliography li .links a.btn:hover {
-  color: var(--global-theme-color);
-  border-color: var(--global-theme-color);
+  color: rgb(37,57,95);
+  border-color: rgb(37,57,95);
 }
 
 .btn-pdf:hover {
-  color: #ff5313 !important;
-  border-color: #ff5313 !important;
+  color: rgb(173,11,0) !important;
+  border-color: rgb(173,11,0) !important;
 }
 
 .btn-code:hover {
@@ -214,7 +214,7 @@ blockquote {
 }
 
 .publications ol.bibliography li div.abstract.hidden {
-  border: dashed 1px var(--global-bg-color);
+  border: dashed 1px #6f91b6;
 }
 
 .publications ol.bibliography li div.abstract.hidden.open {

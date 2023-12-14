@@ -2,6 +2,7 @@ main:
   - title: "Bio"
     url: ./#about-me
     left: True
+
   
   - title: "News"
     url: ./#news
