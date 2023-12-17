@@ -7,7 +7,7 @@ main:
     # code: https://github.com/Vision-CAIR/3DCoMPaT-v2
     # page: https://3dcompat-dataset.org/v2/
     # bibtex: assets/bib/compat_pp.bib
-    video: assets/teasers/iwms.mov
+    image: assets/teasers/spu.png
     is_preprint: true
 
   - title: "Label Delay in Continual Learning"
@@ -27,7 +27,7 @@ main:
     code: https://github.com/wx-zhang/IGCZSL
     # page: https://botcs.github.io/label-delay/
     # bibtex: assets/bib/compat_pp.bib
-    video: assets/teasers/tpami__compat.mp4
+    image: assets/teasers/cgzsl.png
 
 
   # - title: "3DCoMPaT++: : An improved Large-scale 3D Vision Dataset for Compositional Recognition"
