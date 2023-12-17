@@ -13,7 +13,7 @@
 </style>
 
 <ul id="scrollableDiv" onmouseover="showScrollbar()" onmouseout="hideScrollbar()">
-  <li>[07/20232] Srted my internship at Oxford</li>
+  <li>[07/20232] Started my internship at Oxford</li>
   <li>[07/2023] One paper accepted to ICCV '23</li>
   <li>[04/2023] One paper accepted to ICML'23</li>
   <li>[01/2022] Started my Ph.D at KAUST</li>
