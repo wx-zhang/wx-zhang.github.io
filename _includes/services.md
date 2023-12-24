@@ -12,7 +12,7 @@
   </li>
 </ul> --> 
 
-<h4 style="margin:0 10px 0;">Reviewer</h4>
+<h3 style="margin:0 10px 0;">Reviewers</h3>
 
 <ul style="margin:0 0 5px;">
   <!-- <li><a href="http://cvpr2023.thecvf.com/">IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2023</a></li>
@@ -24,8 +24,8 @@
   <li>ICLR, NeurIPs, CVPR, ICCV, TPMAI</li>
   <li><a href="https://unconf.continualai.org/">CLAI Unconf</a>, <a href="https://iccv23-wecia.github.io/">WECIA</a>, <a href="https://iccv-clvl.github.io/2023/">ICCVCLVL</a></li>
 </ul>
-<h4 style="margin:0 10px 0;">Teaching Assistant</h4>
+<h3 style="margin:0 10px 0;">Teaching</h3>
 <ul style="margin:0 0 5px;">
-  <li>CS 326, Low Resource Deep Learning, KAUST</li>
+  <li>Teaching Assistant of CS 326, Low Resource Deep Learning, KAUST</li>
 </ul>
 
