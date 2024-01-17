@@ -9,8 +9,8 @@ I am a third-year Ph.D. student at [KAUST](https://www.kaust.edu.sa/en/) in Saud
 
 <h3 style="margin: 5px 0px 5px;">Research Interests</h3>
 
-- **Safety Alignment(ongoing project)**: Align language models for harmlessness.
-- **Continual finetuning**: Expand the knowledge base of foundation models with emerging properties.
+- **Safety Alignment (ongoing project)**: Align language models for harmlessness.
+- **Finetuning**: Expand the knowledge base of foundation models with emerging properties while preserving the generalizability.
 - **Continual Learning in realistic scenarios**: Dealing with large-scale data streams and unlabeled data in CL.
 
 
