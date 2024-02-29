@@ -2,13 +2,14 @@ main:
 
   - title: "Overcoming Generic Knowledge Loss with Selective Parameter Update"
     authors: <strong>Wenxuan Zhang</strong>, Paul Janson, Rahaf Aljundi, Mohamed Elhoseiny
-    conference: Under review.
+    conference: CVPR.
+    conference_short: CVPR
     pdf: https://arxiv.org/abs/2308.12462
     # code: https://github.com/Vision-CAIR/3DCoMPaT-v2
     # page: https://3dcompat-dataset.org/v2/
     # bibtex: assets/bib/compat_pp.bib
     video: assets/teasers/spu.mp4
-    review: true
+
 
   - title: "Label Delay in Continual Learning"
     authors: Botos Csaba*, <strong>Wenxuan Zhang*</strong>, Matthias Müller, Ser-Nam Lim, Mohamed Elhoseiny, Philip Torr, Adel Bibi
