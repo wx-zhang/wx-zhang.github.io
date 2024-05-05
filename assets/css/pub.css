@@ -225,17 +225,18 @@ blockquote {
   border-radius: 4px;
   box-shadow: 1px 1px 8px #2323232b;
   height: 150px;
-  margin-top: 5px;
+  margin-top: 10px;
   margin-left: 5px;
   margin-bottom: 5px;
-  object-fit: cover;
+  object-fit: scale-down;
 }
 
 .publications ol.bibliography li .teaser-img {
-  width: 335px;
+  width: 340px !important;
+  height: 150px !important;
 }
 
 video {
-  width: 200px !important;
   height: 150px !important;
+  width: 200px !important;
 }
