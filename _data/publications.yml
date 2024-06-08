@@ -24,8 +24,8 @@ main:
   - title: "Continual Learning on a Diet: Learning from Sparsely Labeled Streams Under Constrained Computation"
     authors: <strong>Wenxuan Zhang</strong>, Youssef Mohamed, Bernard Ghanem, Philip Torr, Adel Bibi, Mohamed Elhoseiny
     conference_short: ICLR
-    pdf: https://openreview.net/pdf?id=Xvfz8NHmCj
-    # code: https://github.com/Vision-CAIR/3DCoMPaT-v2
+    pdf: https://arxiv.org/abs/2404.12766
+    code: https://github.com/wx-zhang/continual-learning-on-a-diet
     # page: https://botcs.github.io/label-delay/
     # bibtex: assets/bib/compat_pp.bib
     video: assets/teasers/diet.mov
