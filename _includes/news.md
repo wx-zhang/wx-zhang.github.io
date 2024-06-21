@@ -14,7 +14,7 @@
 
 <ul id="scrollableDiv" onmouseover="showScrollbar()" onmouseout="hideScrollbar()">
   <li>[Pinned to top] I am actively seeking for internship in 2024. I am happy to engage in discussions regarding potential opportunities!</li>
-  <li>[02/2024] Our <a href="https://arxiv.org/abs/2308.12462">SPU</a> paper is accepted to CVPR '24! Code and applications are coming soon!</li>
+  <li>[02/2024] Our <a href="https://arxiv.org/abs/2308.12462">SPU</a> paper is accepted to CVPR '24! Code and applications are released!</li>
   <li>[01/2024] One paper accepted to ICLR '24!</li>
   <li>[07/2023] Started my internship at Oxford.</li>
   <li>[07/2023] One paper accepted to ICCV '23!</li>

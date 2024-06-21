@@ -5,10 +5,10 @@ main:
     conference: CVPR.
     conference_short: CVPR
     pdf: https://arxiv.org/abs/2308.12462
-    # code: https://github.com/Vision-CAIR/3DCoMPaT-v2
-    # page: https://3dcompat-dataset.org/v2/
+    code: https://github.com/wx-zhang/spu/tree/main
+    page: https://wx-zhang.github.io/spu/html/
     # bibtex: assets/bib/compat_pp.bib
-    video: assets/teasers/spu.mp4
+    video: assets/teasers/spu.mov
 
 
   - title: "Label Delay in Continual Learning"
