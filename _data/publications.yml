@@ -2,7 +2,7 @@ main:
 
   - title: "Overcoming Generic Knowledge Loss with Selective Parameter Update"
     authors: <strong>Wenxuan Zhang</strong>, Paul Janson, Rahaf Aljundi, Mohamed Elhoseiny
-    conference: CVPR.
+    # conference: CVPR.
     conference_short: CVPR
     pdf: https://arxiv.org/abs/2308.12462
     code: https://github.com/wx-zhang/spu/tree/main
