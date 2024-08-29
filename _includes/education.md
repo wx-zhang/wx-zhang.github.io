@@ -14,7 +14,7 @@
 <ul style="margin:0 0 2px; padding:0 25px 0">
   <div class="degree">
     <i class="fa-solid fa-graduation-cap" style="color: #6f91b6;"></i>
-    PhD in Computer Science, <a href="https://www.kaust.edu.sa" target="_blank">King Abdullah University of Science and Technology (KAUST)</a>
+    PhD Candidate in Computer Science, <a href="https://www.kaust.edu.sa" target="_blank">King Abdullah University of Science and Technology (KAUST)</a>
   </div>
   <div class="degree">
     <i class="fa-solid fa-graduation-cap" style="color: #6f91b6;"></i>
