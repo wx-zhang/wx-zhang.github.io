@@ -14,6 +14,7 @@
 
 <ul id="scrollableDiv" onmouseover="showScrollbar()" onmouseout="hideScrollbar()">
   <li>[Pinned to top] I am actively seeking for internship in 2025. I am happy to engage in discussions regarding potential opportunities!</li>
+  <li>[06/2024] Our <a href="https://arxiv.org/abs/2312.00923">IWMS (Label Delay in CL)</a> paper is accepted to NeurIPS '24! Code and applications are <a href="https://botcs.github.io/label-delay/">here</a> !</li>
   <li>[08/2024] Our <a href="https://arxiv.org/abs/2408.15313">Safety Alignment</a> paper is out on arxiv! Code and applications are coming soon!</li>
   <li>[06/2024] Our <a href="https://arxiv.org/abs/2308.12462">SPU</a> paper is accepted to CVPR '24! Code and applications are <a href="https://wx-zhang.github.io/spu/html/">here</a> !</li>
   <li>[01/2024] One paper accepted to ICLR '24!</li>
