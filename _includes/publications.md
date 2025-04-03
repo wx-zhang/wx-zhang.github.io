@@ -25,6 +25,9 @@
       {% if link.is_oral %} 
       <abbr class="badge oral-badge">Oral</abbr>
       {% endif %}
+      {% if link.is_spotlight %} 
+      <abbr class="badge oral-badge">Spotlight</abbr>
+      {% endif %}
       {% if link.is_preprint %} 
       <abbr class="badge preprint-badge">Preprint</abbr>
       {% endif %}

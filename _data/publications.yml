@@ -1,11 +1,13 @@
 main:
   - title: "Bi-Factorial Preference Optimization: Balancing Safety-Helpfulness in Language Models"
-    authors: <strong>Wenxuan Zhang</strong>, Philip Torr, Mohamed Elhoseiny, Adel Bibia
-    conference: ArXiv preprint
+    authors: <strong>Wenxuan Zhang</strong>, Philip Torr, Mohamed Elhoseiny, Adel Bibi
     pdf: https://www.arxiv.org/pdf/2408.15313
     # bibtex: assets/bib/compat_pp.bib
     video: assets/teasers/bfpo.mov
-    is_preprint: true
+    conference_short: ICLR
+    is_spotlight: True
+    code: https://github.com/wx-zhang/bfpo
+
 
   - title: "Overcoming Generic Knowledge Loss with Selective Parameter Update"
     authors: <strong>Wenxuan Zhang</strong>, Paul Janson, Rahaf Aljundi, Mohamed Elhoseiny
