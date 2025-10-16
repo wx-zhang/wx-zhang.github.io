@@ -14,7 +14,7 @@
 
 <ul id="scrollableDiv" onmouseover="showScrollbar()" onmouseout="hideScrollbar()">
   <li><strong style="color: #ed8f87;">[Pinned to top]  I am actively seeking for full time position in 2026. I am happy to engage in discussions regarding potential opportunities!</li>
-  <li>[10/2025] I am awarded the KAUST Dean's List Award by my university! </strong> </li>
+  <li>[10/2025] I am awarded the KAUST Dean's List Award by my university!</strong></li>
   <li>[09/2025] Our paper, Vgent, about long video understanding is accepted to NeurIPS '25 as spotlight presentation! </li>
   <li>[08/2025] Started my internship with Meta AI, working on alignment of LLM.</li>
   <li>[03/2025] Our ICLR '25 (spotlight) work <a href="https://arxiv.org/abs/2408.15313">BFPO</a> is out on arxiv! Please find our code <a href="https://github.com/wx-zhang/bfpo">here</a></li>
