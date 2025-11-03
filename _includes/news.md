@@ -13,7 +13,7 @@
 </style>
 
 <ul id="scrollableDiv" onmouseover="showScrollbar()" onmouseout="hideScrollbar()">
-  <li><strong style="color: #ed8f87;">[Pinned to top]  I am actively seeking for full time position in 2026. I am happy to engage in discussions regarding potential opportunities!</strong></li>
+  <li><strong style="color: #c13c33;">[Pinned to top]  I am actively seeking for full time position in 2026. I am happy to engage in discussions regarding potential opportunities!</strong></li>
   <li>[10/2025] I am awarded the KAUST Dean's List Award by my university!</li>
   <li>[09/2025] Our paper, Vgent, about long video understanding is accepted to NeurIPS '25 as spotlight presentation! </li>
   <li>[08/2025] Started my internship with Meta AI, working on alignment of LLM.</li>
