@@ -1,4 +1,16 @@
 main:
+  - title: "Hybrid Advantage Estimation with Unified Critic for VLM  Agentic Reinforcement Learning"
+    authors: <strong>Wenxuan Zhang</strong>, Yuhui Wang, Donggang Jia, Xiaoqian Shen, Jian Ding, Mohamed Elhoseiny
+    # bibtex: assets/bib/compat_pp.bib
+    video: assets/teasers/hybadv.png
+    conference_short: Coming Soon
+  - title: "dTRPO: Trajectory Reduction in Policy Optimization of Diffusion Large Language Models"
+    authors: <strong>Wenxuan Zhang</strong>, Lemeng Wu, Changsheng Zhao, Ernie Chang, Mingchen Zhuge, Zechun Liu, DiJia Su, Hanxian Huang, Jun Chen, Chong Zhou, Raghuraman Krishnamoorthi, Vikas Chandra, Mohamed Elhoseiny, Wei Wen
+    # bibtex: assets/bib/compat_pp.bib
+    video: assets/teasers/dtrpo.pdf
+    conference_short: Coming Soon
+
+
   - title: "Bi-Factorial Preference Optimization: Balancing Safety-Helpfulness in Language Models"
     authors: <strong>Wenxuan Zhang</strong>, Philip Torr, Mohamed Elhoseiny, Adel Bibi
     pdf: https://www.arxiv.org/pdf/2408.15313
