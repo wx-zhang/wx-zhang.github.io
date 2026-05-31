@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>dTRPO Teaser</title>
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans:400,500,600|Noto+Sans:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/dtrpo-teaser.css">
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [["$", "$"], ["\\(", "\\)"]],
+        displayMath: [["$$", "$$"], ["\\[", "\\]"]]
+      }
+    };
+  </script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+  <style>
+    html,
+    body {
+      width: 200px;
+      height: 150px;
+      margin: 0;
+      overflow: hidden;
+      background: #fff;
+    }
+
+    .teaser-stage {
+      position: absolute;
+      top: 20px;
+      left: 0;
+      width: 520px;
+      transform: scale(0.3846);
+      transform-origin: top left;
+    }
+
+    .demo-section {
+      padding: 0;
+    }
+
+    .container-wide {
+      padding: 0;
+    }
+
+    .demo-wrapper {
+      display: block;
+    }
+
+    .demo-panel {
+      background: #fff;
+      border: 0;
+      box-shadow: none;
+      border-radius: 8px;
+      padding: 14px;
+    }
+
+    .demo-section,
+    .container-wide,
+    .demo-wrapper {
+      background: #fff;
+    }
+
+    .demo-panel h3 {
+      display: none;
+    }
+
+    #demo-right-svg {
+      overflow: hidden;
+    }
+
+    #demo-right-svg svg {
+      display: block;
+    }
+
+    .demo-controls,
+    .speed-control,
+    .demo-caption {
+      position: absolute;
+      left: -9999px;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+    }
+  </style>
+</head>
+<body>
+  <section class="demo-section teaser-stage">
+    <div class="container-wide">
+      <div class="demo-wrapper">
+        <div class="demo-panel">
+          <div id="demo-right-svg"></div>
+        </div>
+      </div>
+      <div class="demo-controls">
+        <button id="btn-play">&#9654; Play</button>
+        <button id="btn-reset">&#8635; Reset</button>
+      </div>
+      <div class="speed-control">
+        <span>Speed:</span>
+        <input type="range" id="speed-slider" min="0.5" max="3" step="0.1" value="1">
+        <span id="speed-label">1.0x</span>
+      </div>
+      <p class="demo-caption"></p>
+    </div>
+  </section>
+  <script src="../js/dtrpo-animation.js"></script>
+</body>
+</html>

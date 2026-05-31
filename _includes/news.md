@@ -13,14 +13,15 @@
 </style>
 
 <ul id="scrollableDiv" onmouseover="showScrollbar()" onmouseout="hideScrollbar()">
-  <li><strong style="color: #c13c33;">[Pinned to top]  I am actively seeking for full time position in 2026. I am happy to engage in discussions regarding potential opportunities!</strong></li>
+  <li><strong style="color: #c13c33;">[Pinned to top]  I am actively seeking a full-time position in 2026. I am happy to engage in discussions regarding potential opportunities!</strong></li>
+  <li>[05/2026] Our <a href="https://arxiv.org/abs/2603.18806">dTRPO</a> paper on policy optimization for diffusion large language models is accepted to ICML' 26! Code and project page are available <a href="https://github.com/facebookresearch/dllm_post_training">here</a> and <a href="https://wx-zhang.github.io/dtrpo-web/">here</a>.</li>
   <li>[10/2025] Check our <a href="https://arxiv.org/pdf/2511.19773"> paper</a> in gym for VLM agentic training! </li>
   <li>[10/2025] I am awarded the KAUST Dean's List Award by my university!</li>
   <li>[09/2025] Our paper, Vgent, about long video understanding is accepted to NeurIPS '25 as spotlight presentation! </li>
   <li>[08/2025] Started my internship with Meta AI, working on alignment of dLLM.</li>
   <li>[03/2025] Our ICLR '25 (spotlight) work <a href="https://arxiv.org/abs/2408.15313">BFPO</a> is out on arxiv! Please find our code <a href="https://github.com/wx-zhang/bfpo">here</a></li>
-  <li>[02/2025] Our papers, <a href="https://arxiv.org/abs/2408.15313">BFPO</a> about safety alignment  and <a href="https://openreview.net/forum?id=XKv29sMyjF">QKT</a> about collabrative learning, are accepted in ICLR '25! See you in Singapore!</li>
-  <li>[10/2024] Started my internship with Samsung Research America, woking on model merging.</li>
+  <li>[02/2025] Our papers, <a href="https://arxiv.org/abs/2408.15313">BFPO</a> about safety alignment  and <a href="https://openreview.net/forum?id=XKv29sMyjF">QKT</a> about collaborative learning, are accepted to ICLR '25! See you in Singapore!</li>
+  <li>[10/2024] Started my internship with Samsung Research America, working on model merging.</li>
   <li>[06/2024] Our paper, <a href="https://arxiv.org/abs/2312.00923">IWMS (Label Delay in CL)</a>,  is accepted to NeurIPS '24! Code and applications are <a href="https://botcs.github.io/label-delay/">here </a> !</li>
   <li>[06/2024] Our paper, <a href="https://arxiv.org/abs/2308.12462">SPU</a>, is accepted to CVPR '24! Code and applications are <a href="https://wx-zhang.github.io/spu/html/">here</a>! </li>
   <li>[01/2024] One paper, DietCL, about constrained CL is accepted to ICLR '24!</li>

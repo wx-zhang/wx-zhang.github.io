@@ -176,6 +176,11 @@ blockquote {
   border-color: #7a7a7a !important;
 }
 
+.btn-ppage:hover {
+  color: #00897b !important;
+  border-color: #00897b !important;
+}
+
 .btn-bibtex:hover {
   color: #72c11d !important;
   border-color: #72c11d !important;
@@ -239,4 +244,11 @@ blockquote {
 video {
   height: 150px !important;
   width: 200px !important;
+}
+
+.teaser-iframe {
+  width: 200px !important;
+  height: 150px !important;
+  border: 0;
+  pointer-events: none;
 }

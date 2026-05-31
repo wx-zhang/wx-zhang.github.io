@@ -6,9 +6,12 @@ main:
     conference_short: Coming Soon
   - title: "dTRPO: Trajectory Reduction in Policy Optimization of Diffusion Large Language Models"
     authors: <strong>Wenxuan Zhang</strong>, Lemeng Wu, Changsheng Zhao, Ernie Chang, Mingchen Zhuge, Zechun Liu, DiJia Su, Hanxian Huang, Jun Chen, Chong Zhou, Raghuraman Krishnamoorthi, Vikas Chandra, Mohamed Elhoseiny, Wei Wen
+    pdf: https://arxiv.org/abs/2603.18806
+    code: https://github.com/facebookresearch/dllm_post_training
+    page: https://wx-zhang.github.io/dtrpo-web/
     # bibtex: assets/bib/compat_pp.bib
-    video: assets/teasers/dtrpo.pdf
-    conference_short: Coming Soon
+    iframe: assets/teasers/dtrpo-teaser.html
+    conference_short: ICML
 
 
   - title: "Bi-Factorial Preference Optimization: Balancing Safety-Helpfulness in Language Models"
@@ -31,22 +34,20 @@ main:
     video: assets/teasers/spu.mov
 
 
-  - title: "Label Delay in Continual Learning"
-    authors: Botos Csaba*, <strong>Wenxuan Zhang*</strong>, Matthias Müller, Ser-Nam Lim, Mohamed Elhoseiny, Philip Torr, Adel Bibi
-    conference_short: NeurIPs
-    pdf: https://arxiv.org/abs/2312.00923
-    page: https://botcs.github.io/label-delay/
-    # bibtex: assets/bib/compat_pp.bib
-    video: assets/teasers/iwms.mp4
-    # is_preprint: true
+  # - title: "Label Delay in Continual Learning"
+  #   authors: Botos Csaba*, <strong>Wenxuan Zhang*</strong>, Matthias Müller, Ser-Nam Lim, Mohamed Elhoseiny, Philip Torr, Adel Bibi
+  #   conference_short: NeurIPS
+  #   pdf: https://arxiv.org/abs/2312.00923
+  #   page: https://botcs.github.io/label-delay/
+  #   # bibtex: assets/bib/compat_pp.bib
+  #   video: assets/teasers/iwms.mp4
+  #   # is_preprint: true
 
-  - title: "Continual Learning on a Diet: Learning from Sparsely Labeled Streams Under Constrained Computation"
-    authors: <strong>Wenxuan Zhang</strong>, Youssef Mohamed, Bernard Ghanem, Philip Torr, Adel Bibi, Mohamed Elhoseiny
-    conference_short: ICLR
-    pdf: https://arxiv.org/abs/2404.12766
-    code: https://github.com/wx-zhang/continual-learning-on-a-diet
-    # page: https://botcs.github.io/label-delay/
-    # bibtex: assets/bib/compat_pp.bib
-    video: assets/teasers/diet.mov
-
-
+  # - title: "Continual Learning on a Diet: Learning from Sparsely Labeled Streams Under Constrained Computation"
+  #   authors: <strong>Wenxuan Zhang</strong>, Youssef Mohamed, Bernard Ghanem, Philip Torr, Adel Bibi, Mohamed Elhoseiny
+  #   conference_short: ICLR
+  #   pdf: https://arxiv.org/abs/2404.12766
+  #   code: https://github.com/wx-zhang/continual-learning-on-a-diet
+  #   # page: https://botcs.github.io/label-delay/
+  #   # bibtex: assets/bib/compat_pp.bib
+  #   video: assets/teasers/diet.mov

@@ -21,11 +21,10 @@
   <li><a href="https://mmasia2021.uqcloud.net/"><autocolor>ACM MM Asia 2020-2021</autocolor></a></li>
   <li><a href="http://www.acml-conf.org/2021/"><autocolor>ACML 2021</autocolor></a></li>  
   -->
-  <li>ICLR, NeurIPs, CVPR, ICCV, TPMAI, ICML</li>
+  <li>ICLR, NeurIPS, CVPR, ICCV, TPAMI, ICML</li>
   <li><a href="https://unconf.continualai.org/">CLAI Unconf</a>, <a href="https://iccv23-wecia.github.io/">WECIA</a>, <a href="https://iccv-clvl.github.io/2023/">ICCVCLVL</a></li>
 </ul>
 <h3 style="margin:0 10px 0;">Teaching</h3>
 <ul style="margin:0 0 5px;">
   <li>Teaching Assistant of CS 326, Low Resource Deep Learning, KAUST</li>
 </ul>
-

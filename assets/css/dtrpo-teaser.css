@@ -1,0 +1,646 @@
+/* ==========================================================================
+   dTRPO Project Page – Stylesheet
+   Fonts: Google Sans (headings) + Noto Sans (body) — from 3DCompat v2
+   Colors: Deep blue accent + gray text — from wx-zhang.github.io
+   ========================================================================== */
+
+:root {
+  --blue: #004EA2;
+  --blue-light: #1a6fc4;
+  --body-text: #595959;
+  --heading-text: #222;
+  --bg-white: #ffffff;
+  --bg-off: #f8f8f8;
+  --bg-section: #f4f4f4;
+  --border: #e5e5e5;
+  --border-dark: #e0e0e0;
+  --muted: #7a7a7a;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  color: var(--body-text);
+  background: var(--bg-white);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ---------- Layout ---------- */
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.container-wide {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+section {
+  padding: 48px 0;
+}
+
+section + section {
+  border-top: 1px solid var(--border);
+}
+
+/* ---------- Hero / Title ---------- */
+.hero {
+  text-align: center;
+  padding: 64px 0 32px;
+}
+
+.hero .venue {
+  font-family: "Google Sans", sans-serif;
+  font-weight: 600;
+  color: var(--blue);
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+  letter-spacing: 0.02em;
+}
+
+.hero h1 {
+  font-family: "Google Sans", sans-serif;
+  font-weight: 600;
+  color: var(--heading-text);
+  font-size: 2.4rem;
+  line-height: 1.2;
+  margin-bottom: 24px;
+}
+
+.hero h1 .method-name {
+  color: var(--blue);
+}
+
+/* ---------- Authors ---------- */
+.authors {
+  font-family: "Google Sans", sans-serif;
+  font-size: 1.05rem;
+  text-align: center;
+  margin-bottom: 8px;
+  line-height: 1.8;
+}
+
+.authors a {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+.authors a:hover {
+  text-decoration: underline;
+}
+
+.authors .equal {
+  font-size: 0.75rem;
+  vertical-align: super;
+}
+
+.authors .corresponding {
+  font-size: 0.75rem;
+  vertical-align: super;
+}
+
+.affiliations {
+  font-family: "Google Sans", sans-serif;
+  font-size: 0.95rem;
+  text-align: center;
+  color: var(--muted);
+  margin-bottom: 24px;
+}
+
+.affiliations sup {
+  font-size: 0.7rem;
+  margin-right: 2px;
+}
+
+/* ---------- Links row ---------- */
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 18px;
+  border: 1.5px solid var(--blue);
+  border-radius: 24px;
+  font-family: "Google Sans", sans-serif;
+  font-size: 0.92rem;
+  font-weight: 500;
+  color: var(--blue);
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+}
+
+.links a:hover {
+  background: var(--blue);
+  color: #fff;
+}
+
+.links a i,
+.links a .icon {
+  font-size: 1.1rem;
+}
+
+/* ---------- Demo / Animation ---------- */
+.demo-section {
+  padding: 32px 0 48px;
+}
+
+.demo-wrapper {
+  display: flex;
+  gap: 32px;
+  align-items: stretch;
+}
+
+.demo-panel {
+  flex: 1;
+  background: var(--bg-off);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.demo-panel h3 {
+  font-family: "Google Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--heading-text);
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.demo-panel svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.demo-controls {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.demo-controls button {
+  font-family: "Google Sans", sans-serif;
+  font-size: 0.85rem;
+  font-weight: 500;
+  padding: 6px 16px;
+  border: 1.5px solid var(--blue);
+  border-radius: 20px;
+  background: transparent;
+  color: var(--blue);
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.demo-controls button:hover,
+.demo-controls button.active {
+  background: var(--blue);
+  color: #fff;
+}
+
+.speed-control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 12px;
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
+.speed-control input[type="range"] {
+  width: 120px;
+  accent-color: var(--blue);
+}
+
+.demo-caption {
+  font-size: 0.9rem;
+  color: var(--body-text);
+  line-height: 1.65;
+  margin-top: 16px;
+  text-align: justify;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ---------- Section headings ---------- */
+.section-title {
+  font-family: "Google Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--heading-text);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* ---------- Section description ---------- */
+.section-desc {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* ---------- Abstract ---------- */
+.abstract p {
+  font-size: 1.02rem;
+  line-height: 1.75;
+  text-align: justify;
+}
+
+/* ---------- Method ---------- */
+.method-content {
+  line-height: 1.75;
+}
+
+.method-content h3 {
+  font-family: "Google Sans", sans-serif;
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--heading-text);
+  margin: 28px 0 12px;
+}
+
+.method-content h3:first-child {
+  margin-top: 0;
+}
+
+.method-content p {
+  margin-bottom: 16px;
+}
+
+.method-figure {
+  text-align: center;
+  margin: 24px 0;
+}
+
+.method-figure img {
+  max-width: 100%;
+  border-radius: 6px;
+}
+
+.method-figure .caption {
+  font-size: 0.88rem;
+  color: var(--muted);
+  margin-top: 8px;
+}
+
+/* ---------- Equations ---------- */
+.equation-block {
+  background: var(--bg-off);
+  border-radius: 6px;
+  padding: 3px 20px;
+  margin: 6px 0;
+  overflow-x: auto;
+}
+
+/* ---------- Results table ---------- */
+.results-table-wrapper {
+  overflow-x: auto;
+  margin: 16px 0;
+}
+
+.results-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+  white-space: nowrap;
+}
+
+.results-table th,
+.results-table td {
+  padding: 10px 14px;
+  text-align: center;
+  border-bottom: 1px solid var(--border);
+}
+
+.results-table thead th {
+  font-family: "Google Sans", sans-serif;
+  font-weight: 600;
+  color: var(--heading-text);
+  background: var(--bg-section);
+  border-bottom: 2px solid var(--border-dark);
+}
+
+.results-table thead th .bench-sub {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 400;
+  color: var(--muted);
+}
+
+.results-table tbody td:first-child {
+  text-align: left;
+  font-weight: 500;
+}
+
+.results-table .section-row td {
+  font-style: italic;
+  color: var(--muted);
+  font-size: 0.82rem;
+  text-align: center;
+  background: var(--bg-off);
+  border-bottom: 1px solid var(--border);
+}
+
+.results-table .highlight-row {
+  background: rgba(0, 78, 162, 0.06);
+}
+
+.results-table .highlight-row td {
+  font-weight: 600;
+}
+
+.best {
+  color: var(--blue);
+  font-weight: 700;
+}
+
+/* ---------- Qualitative results ---------- */
+.qual-section {
+  padding: 48px 0;
+}
+
+.qual-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.qual-card {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+  background: var(--bg-white);
+}
+
+.qual-card .qual-header {
+  font-family: "Google Sans", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 10px 14px;
+  background: var(--bg-section);
+  border-bottom: 1px solid var(--border);
+  text-align: center;
+}
+
+.qual-card .qual-body {
+  padding: 14px;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  max-height: 320px;
+  overflow-y: auto;
+}
+
+.qual-card .qual-body .token-correct {
+  color: #2d8a4e;
+}
+
+.qual-card .qual-body .token-error {
+  color: #d32f2f;
+}
+
+.qual-prompt {
+  background: var(--bg-off);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 14px 16px;
+  margin-bottom: 20px;
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+.qual-prompt strong {
+  color: var(--heading-text);
+}
+
+.qual-nav {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.qual-nav button {
+  font-family: "Google Sans", sans-serif;
+  font-size: 0.82rem;
+  padding: 5px 14px;
+  border: 1.5px solid var(--border-dark);
+  border-radius: 16px;
+  background: var(--bg-white);
+  color: var(--body-text);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.qual-nav button:hover,
+.qual-nav button.active {
+  border-color: var(--blue);
+  color: var(--blue);
+  background: rgba(0, 78, 162, 0.04);
+}
+
+/* ---------- Footer ---------- */
+.footer {
+  text-align: center;
+  padding: 32px 0;
+  border-top: 1px solid var(--border);
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.footer a {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 768px) {
+  .hero {
+    padding: 40px 0 20px;
+  }
+
+  .hero h1 {
+    font-size: 1.4rem;
+    line-height: 1.3;
+  }
+
+  .authors {
+    font-size: 0.85rem;
+    line-height: 1.6;
+  }
+
+  .affiliations {
+    font-size: 0.8rem;
+  }
+
+  .links {
+    gap: 8px;
+  }
+
+  .links a {
+    padding: 6px 12px;
+    font-size: 0.82rem;
+  }
+
+  .demo-wrapper {
+    flex-direction: column;
+  }
+
+  .demo-panel {
+    padding: 12px;
+  }
+
+  .demo-panel h3 {
+    font-size: 0.85rem;
+  }
+
+  .demo-caption {
+    font-size: 0.82rem;
+  }
+
+  section {
+    padding: 32px 0;
+  }
+
+  .section-title {
+    font-size: 1.3rem;
+  }
+
+  .abstract p {
+    font-size: 0.92rem;
+  }
+
+  .method-content h3 {
+    font-size: 1rem;
+  }
+
+  .method-content p {
+    font-size: 0.92rem;
+  }
+
+  .equation-block {
+    padding: 3px 10px;
+    font-size: 0.85rem;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .results-table {
+    font-size: 0.75rem;
+  }
+
+  .results-table th,
+  .results-table td {
+    padding: 6px 8px;
+  }
+
+  .qual-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .qual-nav {
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .qual-nav button {
+    font-size: 0.78rem;
+    padding: 4px 10px;
+  }
+
+  .qual-card .qual-header {
+    font-size: 0.82rem;
+  }
+
+  .qual-card .qual-body {
+    font-size: 0.8rem;
+    max-height: 250px;
+  }
+
+  .qual-prompt {
+    font-size: 0.85rem;
+  }
+
+  .container, .container-wide {
+    padding: 0 12px;
+  }
+
+  .speed-control {
+    font-size: 0.75rem;
+  }
+
+  .demo-controls button {
+    font-size: 0.78rem;
+    padding: 5px 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 1.15rem;
+  }
+
+  .authors {
+    font-size: 0.78rem;
+  }
+
+  .results-table {
+    font-size: 0.68rem;
+  }
+
+  .results-table th,
+  .results-table td {
+    padding: 4px 5px;
+  }
+
+  .results-table thead th .bench-sub {
+    font-size: 0.6rem;
+  }
+}
+
+/* ---------- MathJax overrides ---------- */
+.MathJax {
+  font-size: 1em !important;
+}
+
+
+/* Math inside SVG foreignObject */
+svg foreignObject {
+  overflow: visible;
+}
+
+/* Smooth fade-in for animated SVG groups */
+svg g[id^="rp-"] {
+  transition: opacity 0.4s ease-in-out;
+}
+
+/* Smooth color transitions for token boxes */
+svg rect {
+  transition: fill 0.3s ease;
+}
+

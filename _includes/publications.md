@@ -14,6 +14,9 @@
       {% if link.image %} 
       <img src="{{ link.image }}" class="teaser teaser-img img-fluid z-depth-1">
       {% endif %}
+      {% if link.iframe %} 
+      <iframe src="{{ link.iframe }}" class="teaser teaser-iframe z-depth-1" loading="lazy" title="{{ link.title }} teaser"></iframe>
+      {% endif %}
       {% if link.video %} 
       <video id="teaser" autoplay="" muted="" loop="" playsinline="" class="teaser z-depth-1" >
         <source src="{{ link.video }}" type="video/mp4">
@@ -77,5 +80,4 @@
 {% endfor %}
 </ol>
 </div>
-
 
